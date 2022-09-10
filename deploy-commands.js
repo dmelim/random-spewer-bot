@@ -5,7 +5,7 @@ dotenv.config();
 
 const commands = [
   new SlashCommandBuilder()
-    .setName("random")
+    .setName("randooom")
     .setDescription("Replies with a random quote!"),
 ].map((command) => command.toJSON());
 

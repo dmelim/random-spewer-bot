@@ -34,7 +34,7 @@ client.on("interactionCreate", async (interaction) => {
 
   const { commandName } = interaction;
 
-  if (commandName === "random") {
+  if (commandName === "randooom") {
     let randomSign = randomNum(sign);
     let randomDay = randomNum(day);
     const link = `https://aztro.sameerkumar.website/?sign=${randomSign}&day=${randomDay}`;
